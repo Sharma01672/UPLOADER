@@ -12,7 +12,7 @@ escalation via sudo misconfiguration.
 | User     | Password  | Access        |
 |----------|-----------|---------------|
 | uploader | 01672     | VM Admin      |
-| ayush    | ayush@123 | SSH User      |
+| ayush    | ayush2025 | SSH User      |
 | root     | -         | Via privesc   |
 
 ### Key Processes
